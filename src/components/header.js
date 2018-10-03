@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import MobileMenu from './Header/MobileMenu'
+import classNames from 'classnames'
+import styles from './Header.module.css'
 import logo from '../images/logo.png'
-import './Header.css'
+import './Header.module.css'
 
-const Header = ({ siteTitle }) => (
-  <header className="App-header-container container-full">
-    <MobileMenu />
-    <div className="App-header container">
+const Header = props => (
+  <header className={classNames(props.className, 'container-full')}>
+    <div className={classNames(styles.header, 'container')}>
       <Link to="/projects">Проекты</Link>
       <Link to="/" exact={true}>
         <img src={logo} className="App-logo" alt="logo" />

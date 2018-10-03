@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('http://fonts.fontstorage.com/import/lato.css');
+
+body {
+  font-family: var(--ff-text);
+  line-height: var(--ff-line-height-global);
+  font-size: var(--ff-size-global);
+  color: var(--ff-text-color);
+}
+
+h1 {
+  font-family: var(--ff-headings);
+  font-size: var(--ff-h1-size);
+  line-height: var(--ff-h1-line-height);
+  font-weight: var(--ff-headings-weight);
+}

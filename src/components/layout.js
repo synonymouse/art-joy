@@ -1,11 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import MobileMenu from './Header/MobileMenu'
+import classNames from 'classnames'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './Header'
 import Footer from './Footer'
-import './Layout.css'
+import './../styles/reset.css'
+import './../styles/typography.css'
+import './../styles/base.css'
+import './../styles/variables.css'
+import layoutStyles from './Layout.module.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -29,9 +35,16 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <main className="App-content">{children}</main>
-        <Footer />
+        <MobileMenu />
+        <div className={layoutStyles.grid}>
+          <Header className={layoutStyles.header} />
+          <div className="container-full">
+            <main className={classNames(layoutStyles.content, 'container')}>
+              {children}
+            </main>
+          </div>
+          <Footer className={layoutStyles.footer} />
+        </div>
       </>
     )}
   />

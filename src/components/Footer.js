@@ -1,12 +1,13 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react'
+import classNames from 'classnames'
+import styles from './Footer.module.css'
 
-const Footer = () => {
-  return (
-    <footer className="App-footer-container container-full">
-      <div className="App-footer container">Copyright Art-Joy 2018</div>
-    </footer>
-  );
-};
+const Footer = props => (
+  <footer className={classNames(props.className, 'container-full')}>
+    <div className={classNames(styles.footer, 'container')}>
+      Copyright Art-Joy 2018
+    </div>
+  </footer>
+)
 
-export default Footer;
+export default Footer
