@@ -1,17 +1,17 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import MobileMenu from './Header/MobileMenu'
-import classNames from 'classnames'
-import { StaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import MobileMenu from './Header/MobileMenu';
+import classNames from 'classnames';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Header from './Header'
-import Footer from './Footer'
-import './../styles/reset.css'
-import './../styles/typography.css'
-import './../styles/base.css'
-import './../styles/variables.css'
-import layoutStyles from './Layout.module.css'
+import Header from './Header';
+import Footer from './Footer';
+import './../styles/reset.css';
+import './../styles/typography.css';
+import './../styles/base.css';
+import './../styles/variables.css';
+import layoutStyles from './Layout.module.css';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -48,10 +48,10 @@ const Layout = ({ children }) => (
       </>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

@@ -1,5 +1,8 @@
 :root {
-  --ff-size-global: 15px;
+  --color-primary: #24292e;
+  --color-secondary: #883744;
+
+  --ff-size-global: 16px;
   --ff-line-height-global: 1.429;
   --ff-h1-size: 2.125rem;
   --ff-h1-line-height: 2.2rem;
@@ -9,7 +12,6 @@
 
   --ff-text: 'Lato', sans-serif;
   --ff-text-weight: 400;
-  --ff-text-color: #24292e;
 
   --global-margin: 0 5%;
   --global-padding: 0 5%;
