@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{139:function(e,n,t){"use strict";t.r(n);var a=t(0),l=t.n(a),r=t(145);n.default=function(){return l.a.createElement(r.a,null,l.a.createElement("h1",null,"Система в опасносте!! Attention! Attention! Fire all arms! Бааам!"),l.a.createElement("p",null,"Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю."))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-2d6d3a67ae1b025bcf52.js.map
