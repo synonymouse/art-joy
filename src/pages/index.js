@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import Layout from '../components/Layout'
+import Layout from '../components/layout';
 
 const Index = () => (
   <Layout>
@@ -10,6 +10,6 @@ const Index = () => (
       мягких французских булок, да выпей же чаю.
     </p>
   </Layout>
-)
+);
 
-export default Index
+export default Index;
