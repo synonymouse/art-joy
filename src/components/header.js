@@ -9,7 +9,6 @@ import './Header.module.css';
 const Header = props => (
   <header className={classNames(props.className, 'container-full')}>
     <div className={classNames(styles.header, 'container')}>
-      {console.log(props.match)}
       <MediaQuery minDeviceWidth={1200}>
         <Link to="/projects">Проекты</Link>
       </MediaQuery>

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/art-joy`,
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
@@ -18,4 +19,4 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
-}
+};
