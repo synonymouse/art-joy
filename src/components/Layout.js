@@ -11,7 +11,7 @@ import './../styles/reset.css';
 import './../styles/typography.css';
 import './../styles/base.css';
 import './../styles/variables.css';
-import layoutStyles from './Layout.module.css';
+import layoutStyles from './layout.module.css';
 
 const Layout = ({ children }) => (
   <StaticQuery
