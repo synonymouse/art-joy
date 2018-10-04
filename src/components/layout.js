@@ -16,7 +16,7 @@ import layoutStyles from './layout.module.css';
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query TitleQuery {
+      query SiteTitleQuery {
         site {
           siteMetadata {
             title
