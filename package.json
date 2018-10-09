@@ -8,6 +8,8 @@
   },
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "antd": "^3.10.0",
+    "babel-plugin-import": "^1.9.1",
     "classnames": "^2.2.6",
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -18,7 +20,8 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-photo-gallery": "^6.2.1",
-    "react-responsive": "^5.0.0"
+    "react-responsive": "^5.0.0",
+    "sanitize.css": "^7.0.3"
   },
   "keywords": [
     "gatsby"

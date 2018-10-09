@@ -7,7 +7,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import Header from './Header';
 import Footer from './Footer';
-import './../styles/reset.css';
+import 'sanitize.css';
 import './../styles/typography.css';
 import './../styles/base.css';
 import './../styles/variables.css';
@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div>
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
@@ -45,7 +45,7 @@ const Layout = ({ children }) => (
           </div>
           <Footer className={layoutStyles.footer} />
         </div>
-      </>
+      </div>
     )}
   />
 );
